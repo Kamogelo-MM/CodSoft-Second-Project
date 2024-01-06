@@ -1,0 +1,248 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+header,
+footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin-top: 200px;
+  margin-left: -200px;
+  font-size: 15px;
+}
+
+h1 {
+  margin-left: 60px;
+}
+
+.ui-kit-title {
+  margin-left: 30px;
+}
+.ui-kit-title h2 {
+  margin-top: 120px;
+  font-size: 70px;
+  color: white;
+}
+
+.ui-kit-title h4 {
+  font-size: 40px;
+  color: white;
+  margin-top: 60px;
+}
+.ui-kit-title h5 {
+  font-size: 30px;
+  background-image: linear-gradient(to left, #c5c5c5, #ffffff, #242427);
+  font-size: 30px;
+  font-weight: bold;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ui-kit {
+  height: 300vh;
+  display: flex;
+}
+.background {
+  width: 50%;
+  height: 118vh;
+  display: flex;
+  justify-content: start;
+  align-items: first baseline;
+  background-color: black;
+}
+
+.ui-kit-examples {
+  width: 60%;
+}
+
+.website-one,
+.website-two,
+.website-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.website-one,
+.website-two {
+  border: 1px solid black;
+  background-color: black;
+  height: 118vh;
+}
+
+.website-three {
+  background-color: rgba(229, 229, 229, 1);
+  height: 118vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.website-one h3 {
+  margin-top: 40px;
+}
+
+.website-one h3,
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 15px 15px;
+  padding: 12px 12px;
+  background-color: white;
+  color: black;
+}
+.border {
+  background-color: rgba(229, 229, 229, 1);
+  height: 110vh;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+.col-sm-5 {
+  margin-top: 120px;
+}
+.nft-title {
+  margin-top: 40px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 7px;
+}
+
+.nft-description {
+  font-size: 7px;
+  color: grey;
+}
+
+.nft-button {
+  padding: 4px 4px;
+  width: 100px;
+  background-color: black;
+  border-radius: 8px 8px;
+  color: white;
+  margin-left: 30px;
+  font-size: 10px;
+}
+.cards {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 50vh;
+  width: 50vh;
+}
+.nft-trust,
+.nft-paragraph {
+  border: 1px solid black;
+  border-radius: 15px 15px;
+  background-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nft-trust h3 {
+  margin-top: -1px;
+  color: white;
+}
+
+.nft-list,
+.digital-eyes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nft-blocks {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px 7px;
+  padding: 12px 12px;
+  font-size: 11px;
+  color: black;
+  margin-left: 7px;
+  font-weight: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 3px 4px 5px 6px;
+}
+.nft-paragraph h4 {
+  font-size: 25px;
+}
+.nft-paragraph {
+  margin-top: 30px;
+  color: white;
+  padding: 7px 7px;
+}
+.digital-list {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px 7px;
+  color: black;
+  font-size: 8px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly, space-between;
+  width: 100px;
+  margin-left: 13px;
+}
+
+.digital-list-1 {
+  background-color: rgba(255, 255, 255, 0.258);
+  font-size: 8px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly, space-between;
+  width: 100px;
+  margin-left: 13px;
+  border-radius: 4px 4px;
+}
+
+.website-two {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  color: white;
+}
+.website-two-content h2 {
+  text-align: center;
+}
+.website-two-content {
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.website-three h3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.website-three h4 {
+  color: grey;
+  font-size: 30px;
+}
+
+.website-three button {
+  background-color: white;
+  border-radius: 15px 15px;
+  padding: 10px 10px;
+}
+.website-three button:hover {
+  background-color: black;
+}
