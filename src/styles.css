@@ -1,13 +1,16 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: black;
 }
-header,
-footer {
+header {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
 }
+
+header h1 {
+  margin-top: 30px;
+}
+
 ul {
   margin-top: 200px;
   margin-left: -200px;
@@ -18,27 +21,58 @@ h1 {
   margin-left: 60px;
 }
 
+nav {
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #ffffff;
+}
+.nav-link:visited,
+.navbar-brand:visited {
+  color: #51b6c0;
+}
+.header-card {
+  -webkit-box-reflect: above;
+}
+
+.subscribe {
+  color: black;
+  background-color: rgb(209, 198, 198);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 9px 9px;
+  padding: 5px 5px;
+  margin-left: 40px;
+}
+
 .ui-kit-title {
   margin-left: 30px;
+  margin: 0 !important;
 }
 .ui-kit-title h2 {
   margin-top: 120px;
+  margin-left: 30px;
   font-size: 70px;
   color: white;
+  margin: 0 !important;
 }
 
 .ui-kit-title h4 {
   font-size: 40px;
+  margin-left: 20px;
   color: white;
-  margin-top: 60px;
 }
-.ui-kit-title h5 {
+
+.ui-kit-title h5,
+.website-three h2 {
   font-size: 30px;
   background-image: linear-gradient(to left, #c5c5c5, #ffffff, #242427);
   font-size: 30px;
   font-weight: bold;
   color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -51,7 +85,7 @@ h1 {
   height: 118vh;
   display: flex;
   justify-content: start;
-  align-items: first baseline;
+
   background-color: black;
 }
 
@@ -59,6 +93,7 @@ h1 {
   width: 60%;
 }
 
+.website,
 .website-one,
 .website-two,
 .website-three {
@@ -74,8 +109,9 @@ h1 {
 }
 
 .website-three {
-  background-color: rgba(229, 229, 229, 1);
-  height: 118vh;
+  background-color: black;
+  border: 1px solid white;
+  height: 100vh;
   display: flex;
   align-items: center;
   align-content: center;
@@ -221,28 +257,61 @@ li {
 .website-two-content h2 {
   text-align: center;
 }
+
 .website-two-content {
   margin-top: 150px;
   margin-left: 30px;
   margin-right: 20px;
 }
-.website-three h3 {
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+
+.web2-blocks1 {
+  background-color: white;
+  border-radius: 7px 7px;
+  color: rgb(248, 134, 248);
+}
+
+.web2-blocks {
+  background-color: rgba(255, 255, 255, 0.251);
+  color: rgba(255, 255, 255, 0.427);
+  padding: 18px 18px;
+  border-radius: 7px 7px;
+}
+.web2-blocks p,
+.web2-blocks1 p {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+}
+
+.website-three h2 {
+  color: white;
+  font-size: 80px;
   text-align: center;
 }
 
-.website-three h4 {
-  color: grey;
-  font-size: 30px;
+.web3-list {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.navlink {
+  color: white;
+  background-color: none;
 }
 
-.website-three button {
-  background-color: white;
-  border-radius: 15px 15px;
-  padding: 10px 10px;
+.web3-list2 {
+  color: white;
 }
-.website-three button:hover {
-  background-color: black;
+.web3-list2 h6 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+.web3-list2 p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.495);
 }
